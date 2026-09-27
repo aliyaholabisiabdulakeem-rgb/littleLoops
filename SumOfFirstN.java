@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Numbers1toN{
+public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+System.out.print("Enter N: ");
+    int N = input.nextInt();
+    int sum = 0;
+for(int count = 1; count <= N; count++){
+    sum += count;
+}
+    System.out.println("Sum of N is " + sum);
+}
+}
+
